@@ -1,0 +1,299 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Times new roman", serif;
+    letter-spacing: 1px;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: #ffe;
+    text-transform: capitalize;
+    font-family: monospace;
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  
+    font-family: "Raleway", sans-serif;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: #d859b2;
+    border: none;
+    border-radius: 8px;
+  }
+  
+/* kartice */
+
+  .board-lists {
+    margin-top: 160px;
+    display: grid;
+    grid-auto-columns: 272px;
+    grid-auto-flow: column;
+    grid-gap: 8px;
+  }
+  
+  .board-list {
+    background-color: grey;
+    border-radius: 3px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-gap: 10px;
+    height: max-content;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .list-title {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .card {
+    color: white;
+    background-color: #c24b9e;
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+    
+}
+  
+  .add-card-btn {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: grey;
+    padding: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+  .add-list-btn {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: grey;
+    padding: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: inherit;
+    background: none;
+    border: none;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+}
+#tabela {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabela td, #tabela th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+#tabela tr:nth-child(odd){background-color: #aaabb6;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d859b2;
+  color: white;
+}
+
+.dugme {
+  font-family: "Times new roman", serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #d859b2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer; 
+}
+.inputtabela {
+  font-family: "Times new roman",serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+
+.naziv_projekta {
+background: #1ebba3;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+color: #FFFFFF;
+font-family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+font-size: 35px;
+font-weight: bold;
+text-align: center;
+height: 80px;
+line-height: 25px;
+margin: 40px 0 !important;
+padding: 25px;
+}
+
+.opis{
+  background: #d859b2;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+  font-size: 18px;
+  font-weight: bold;
+  width: 360px;
+  height: 36px;
+  text-align: center;
+  margin-top: 64px;
+  margin-left: 36px;
+  padding: 8px;
+  text-shadow: 2px 2px 3px #222222;
+  
+}
+
+.opis_projekta {
+  font-family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+  font-size: 15px;
+  font-weight: bold;
+  width: 360px;
+  line-height: 23px;
+  margin-left: 36px;
+}
+
+
+
+.searchbox{
+  background-color:#fffbf8;
+  padding:13px;
+  width:335px;
+  margin: auto;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  border-radius:6px;
+  -webkit-box-shadow:
+      0 2px 4px 0 rgba(72, 72, 72, 0.83),
+      0 10px 15px 0 rgba(126, 126, 126, 0.12),
+      0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+      0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+  -moz-box-shadow: 
+      0 2px 4px 0 rgba(72, 72, 72, 0.83),
+      0 10px 15px 0 rgba(126, 126, 126, 0.12),
+      0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+      0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+  box-shadow: 
+      0 2px 4px 0 rgba(72, 72, 72, 0.83),
+      0 10px 15px 0 rgba(126, 126, 126, 0.12),
+      0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+      0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+}
+input[type="search"]{
+  width:250px;
+  height:30px;
+  padding-left:15px;
+  border-radius:6px;
+  border:none;
+  color:#939393;
+  font-weight:500;
+  background-color:#fffbf8;
+  -webkit-box-shadow:
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+  -moz-box-shadow: 
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+  box-shadow:
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+}
+input[type="search"]:focus{
+  outline:0;
+}
+
+
+
+.button {
+  background-color: #d859b2; /* Pink */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
